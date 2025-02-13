@@ -5,7 +5,7 @@ interface ChatButtonProps {
 
 export function ChatButton({ onClick, chatOpened }: ChatButtonProps) {
   return (
-    <div className="flex items-center bg-white overflow-hidden">
+    <div className="flex items-center leading-none h-12 sm:leading-normal bg-white overflow-hidden">
       <button
         onClick={onClick}
         className={`flex-1 px-6 py-3 border-r font-semibold hover:bg-gray-50 ${

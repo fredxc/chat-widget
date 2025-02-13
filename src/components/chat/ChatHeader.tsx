@@ -7,8 +7,12 @@ interface ChatHeaderProps {
 export default function ChatHeader({ onClose }: ChatHeaderProps) {
   return (
     <div className="flex items-center justify-between bg-red-500 px-4 py-4">
-      <img src="/assets/tickets-logo.svg" alt="Tours & Tickets" />
-      <div className="flex items-center gap-4">
+      <img
+        src="/assets/tickets-logo.svg"
+        alt="Tours & Tickets"
+        className="w-1/2 sm:w-auto"
+      />
+      <div className="flex items-center gap-2 sm:gap-4">
         <img
           alt="Cart"
           src="/assets/icons/cart-icon.svg"
