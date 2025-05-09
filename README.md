@@ -1,10 +1,10 @@
-# AskRobin Chat Widget 🗨️
+# Chat Widget 🗨️
 
-🚀 **Live Demo:** [https://askrobin-chat-widget.web.app/](https://askrobin-chat-widget.web.app/)
+🚀 **Live Demo:** [https://chatwidget.fredx.dev/](https:///chatwidget.fredx.dev)
 
 ## 📌 About
 
-This is a **technical assignment for AskRobin**, featuring a **React-based chat widget**
+This is a **technical assignment**, featuring a **React-based chat widget**
 
 ## ⚙️ Tech Stack
 
@@ -17,8 +17,8 @@ This is a **technical assignment for AskRobin**, featuring a **React-based chat 
 
 ```sh
 # Clone the repo
-git clone https://github.com/fredxc/askrobin-chat-widget.git
-cd askrobin-chat-widget
+git clone https://github.com/fredxc/chat-widget.git
+cd chat-widget
 
 # Install dependencies
 npm install
